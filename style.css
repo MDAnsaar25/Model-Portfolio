@@ -858,8 +858,9 @@ span {
     }
 
     .about-img img {
-        width: 70vw;
+        width: 20vw;
         margin-top: -2rem;
+         height: 40vw;
     }
 
     .testimonial-container .testimonial-wrapper {
