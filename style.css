@@ -382,16 +382,16 @@ span {
     margin: 1rem 0 3rem;
 }
 
-.portfolio {
+.projects {
     min-height: auto;
     padding-bottom: 10rem;
 }
 
-.portfolio h2 {
+.projects h2 {
     margin-bottom: 4rem;
 }
 
-.portfolio .portfolio-container {
+.projects .portfolio-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -970,3 +970,26 @@ svg {
 .certification-card .card-text {
   color: #666;
 }
+
+
+/* CSS for larger screens */
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* CSS for mobile devices */
+/*@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .container {
+        width: 100%;
+    }
+} */
