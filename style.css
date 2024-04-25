@@ -1,3 +1,24 @@
+/* For small devices (e.g., phones) */
+@media only screen and (max-width: 600px) {
+    /* CSS rules for small devices */
+}
+
+/* For medium devices (e.g., tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* CSS rules for medium devices */
+}
+
+/* For large devices (e.g., desktops) */
+@media only screen and (min-width: 1025px) {
+    /* CSS rules for large devices */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
